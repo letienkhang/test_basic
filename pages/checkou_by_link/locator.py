@@ -1,0 +1,18 @@
+
+class CheckoutLinkLocators:
+    BuyNowButton = "//button[@class=' btn btn-extra-large btn-solid btn-solid-primary btn-solid-3d-primary w-full mt-7']"
+    ButtonBuyNowPDP = "//button[contains(@class, 'btn-extra-large') and contains(@class, 'product-call-to-action_buy-now_button') and .//span[text()='Mua ngay']]"
+    DataName = "Test Đơn web"
+    DataPhone = "0900000011"
+    DataDetailAddress = "90 Le Loi"
+    FillNumberCus = "//input[@class=' input__xl input--default pl-12 pr-4  w-full h-[52px] !pr-3 !pl-[42px] rounded-[4px] placeholder:text-yd-gray-100 border-yd-gray-50 truncate'][@name='phone']"
+    AddressCus = "//div[@class = 'w-full relative select-city-district-ward !rounded-[4px] !border-yd-gray-50 text-yd-typo-title']"
+    AddressCity = "//input[@class= ' input__m input--default pl-12 pr-4  w-full w-full h-11 !pl-9 !rounded-none !border-t-0 !border-r-0 !border-l-0 truncate']"
+    ChooseCity = "//div[@class= 'font-regular text-yd-label-4 text-yd-typo-label']"
+    AttributeError = "//input[@class= ' input__m input--default pl-12 pr-4  w-full w-full h-11 !pl-9 !rounded-none !border-t-0 !border-r-0 !border-l-0 truncate']"
+    ChooseProvince = "//div[@class= 'font-regular text-yd-label-4 text-yd-typo-label']"
+    DetailAddress = "//input[@name='address'][@class=' input__xl input--default pl-4 pr-4  w-full h-[52px] rounded-[4px] placeholder:text-yd-gray-100 border-yd-gray-50 truncate']"
+    NoteOrder = "//input[@class=' input__xl input--default pl-12 pr-4  w-full h-[52px] !pr-3 !pl-[42px] rounded-[4px] placeholder:text-yd-gray-100 border-yd-gray-50 truncate'][@name= 'note']"
+    Payment = "//button[@class= ' btn btn-solid btn-solid-primary btn-solid-3d-primary w-full h-[48px]']"
+    FillNameCus = "//input[@class=' input__xl input--default pl-12 pr-4  w-full h-[52px] !pr-3 !pl-[42px] rounded-[4px] placeholder:text-yd-gray-100 border-yd-gray-50 truncate'][@name='name']"
+    FillNumberCus = "//input[@class=' input__xl input--default pl-12 pr-4  w-full h-[52px] !pr-3 !pl-[42px] rounded-[4px] placeholder:text-yd-gray-100 border-yd-gray-50 truncate'][@name='phone']"
