@@ -7,7 +7,7 @@ def get_data_web():
     data_list = [
         {
             'name': 'Canonical',
-            'path': '/Users/kanglee/PycharmProjects/pythonProject5/pages/canonical/canonical_page.py',
+            'path': 'pages/canonical/canonical_page.py',
             'tags': ['Canonical', 'Link'],
         },
         {
